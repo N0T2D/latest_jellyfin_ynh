@@ -5,6 +5,13 @@ It shall NOT be edited by hand.
 
 # Fork for install with latest Jellyfin packages
 
+## Changes
+
+We change all the repository to match with the latest version of Jellyfin. When you try to install the app with this script and the web GUI, it won't install. Just install it with SSH on your terminal.
+``` bash
+sudo yunohost app install <path to my github>
+```
+
 ## Overview
 
 Jellyfin enables you to collect, manage, and stream your media. Run the Jellyfin server on your system and gain access to the leading free-software entertainment system, bells and whistles included.
